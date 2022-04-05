@@ -2,8 +2,30 @@
 # Data table filter api
 
 
-auto calculation, table search, table filter, table pagination, table sort, table order
 
+
+## Features
+
+- auto calculation
+- table search
+- table filter
+- table pagination
+- table sort
+- table order
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  cd my-project
+  virtualenv venv # activate env
+  pip instll -r requirements.txt
+  uvicorn main:app
+  
+```
+    
 ## API Reference
 
 #### Get all items
@@ -24,3 +46,11 @@ auto calculation, table search, table filter, table pagination, table sort, tabl
 | :-------- | :------- | :-------------------------------- |
 | `limit`      | `int` | **Required**. Limit of item to fetch |
 | `offset`      | `int` | **Required**. Offset of item to fetch |
+
+
+
+
+## Tech Stack
+
+**Server:** Python, Uvicorn, Pydantic, FastAPI, Mysql, Faker
+
